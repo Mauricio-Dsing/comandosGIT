@@ -1,0 +1,5 @@
+1- git version : sirve para saber si tengo instalado git.
+2- git init : sirve para inicar un nuevo repositorio.
+3- git config --global user.name : sirve para configurar git con nombre de usuario.
+4- git config --global user.email : sirve para configurar git con email. 
+5- git config --list : nos muestra las configuraciones que tenemos en git. 
