@@ -2,4 +2,25 @@
 2- git init : sirve para inicar un nuevo repositorio.
 3- git config --global user.name : sirve para configurar git con nombre de usuario.
 4- git config --global user.email : sirve para configurar git con email. 
-5- git config --list : nos muestra las configuraciones que tenemos en git. 
+5- git config --list : nos muestra las configuraciones que tenemos en git.
+6- ll : nos muestra los archivos que contiene el directorio.
+7- git status : nos muestra el estado de nuestros archivos.
+8- git add -A : nos permite agregar todos nuestros archivos al STAGING AREA. / git add "nombre del archivo" : para un archivo especifico
+9- git commit -m : nos permite agregar un comentario y logear y agregar los cambios realizados a nuestro repositorio.
+10- git log : nos muestra todos los comentarios que existen.
+11 git clone : nos permite descargar todo el codigo desde un positorio externo existente.
+12- git push origin master : nos sirve para subir nuestro codigo desde el repositorio local.
+13- git pull origin master : sirve para descargar nuestro codigo desde un repositorio remoto.
+14- git branch "aqui va el nombre de la rama" : sirve para crear una rama.
+15- git checkout + el nombre de la rama : nos permite movernos a la rama creada.
+16- git branch : nos muestras todas las ramas existentes.
+17- vim "aqui va el nombre del archivo" : este comando nos permite entrar en un archivo para modificarlo.
+
+----NOTA: para guardar los cambios realizados en el documento y salir del modo de edicion; 
+    primero precionar la tecla ESC, luego escribir :wq + ENTER, seguido esto usar "git add -A" para agregar los archivos al STAGING AREA, 
+    y asi posteriormente realizar un "git commit -m" para guardar los cambios realizados. ---------
+
+ 18- git branch -a : nos muestra todas las ramas existentes tanto local como remotas. 
+ 19- git merge "aqui va el nombre de la rama " : sirve para fusionar la rama creada con el MASTER.
+ 20- git push origin --delete "aqui va el nombre de la rama" : este comando nos permite eliminar una rama que ya no vallamos a utilizar. 
+
