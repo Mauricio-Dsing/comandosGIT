@@ -1,0 +1,12 @@
+1-primero git checkout master, pasarse a la rama master. 
+2-git pull origin master, para descargarse la version mas reciente del codigo
+3- git branch "nombre de la rama ", crear una rama en la cual vamos a trabajar.
+4-git chekout "nombre de la rama" para pasarnos a la rama en la cual vamos a trabajar.
+5- vim "nombre del archivo que vamos modificar" ahroa realizamos todos nuestros cambios desde la rama creada. 
+6- git add -A para agregar los archivos que hayamos modificados al STAGING AREA. 
+7- git commit -m "aqui va el comentario" para confirmar todos nuestros cambios.
+8- git push "nombre de la rama actual" para suir mi rama al repositorio remoto.
+9- git checkout master para pasarnos a la rama principal. 
+10- git branch --merged para ver si nuestra rama esta mergeada, lo cual aun no ah ocurrido.
+11- git merge "nombre de la rama que vamos a mergear" realizamos esto para fusionar todos nuestros cambios con el master 
+12- git push origin master para subir nustro codigo al repositorio remoto. 
