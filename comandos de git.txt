@@ -24,3 +24,4 @@
  19- git merge "aqui va el nombre de la rama " : sirve para fusionar la rama creada con el MASTER.
  20- git push origin --delete "aqui va el nombre de la rama" : este comando nos permite eliminar una rama que ya no vallamos a utilizar. 
 
+- - terminando de agregar comandos a la lista.
