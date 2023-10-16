@@ -5,8 +5,10 @@
 5- vim "nombre del archivo que vamos modificar" ahroa realizamos todos nuestros cambios desde la rama creada. 
 6- git add -A para agregar los archivos que hayamos modificados al STAGING AREA. 
 7- git commit -m "aqui va el comentario" para confirmar todos nuestros cambios.
-8- git push "nombre de la rama actual" para suir mi rama al repositorio remoto.
+8- git push origin "nombre de la rama actual" para suir mi rama al repositorio remoto.
 9- git checkout master para pasarnos a la rama principal. 
 10- git branch --merged para ver si nuestra rama esta mergeada, lo cual aun no ah ocurrido.
 11- git merge "nombre de la rama que vamos a mergear" realizamos esto para fusionar todos nuestros cambios con el master 
 12- git push origin master para subir nustro codigo al repositorio remoto. 
+
+
