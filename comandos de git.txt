@@ -14,7 +14,7 @@
 14- git branch "aqui va el nombre de la rama" : sirve para crear una rama.
 15- git checkout + el nombre de la rama : nos permite movernos a la rama creada.
 16- git branch : nos muestras todas las ramas existentes.
-17- vim "aqui va el nombre del archivo" : este comando nos permite entrar en un archivo para modificarlo.
+17- vim "aqui va el nombre del archivo o carpeta" : este comando nos permite entrar en un archivo para modificarlo.
 
 ----NOTA: para guardar los cambios realizados en el documento y salir del modo de edicion; 
     primero precionar la tecla ESC, luego escribir :wq + ENTER, seguido esto usar "git add -A" para agregar los archivos al STAGING AREA, 
@@ -22,6 +22,20 @@
 
  18- git branch -a : nos muestra todas las ramas existentes tanto local como remotas. 
  19- git merge "aqui va el nombre de la rama " : sirve para fusionar la rama creada con el MASTER.
- 20- git push origin --delete "aqui va el nombre de la rama" : este comando nos permite eliminar una rama que ya no vallamos a utilizar. 
-
-- - terminando de agregar comandos a la lista.
+ 20- git push origin --delete "aqui va el nombre de la rama" : este comando nos permite eliminar una rama que ya no vallamos a utilizar.
+ 21- cd "nombre de la carpeta o archivo" : este comando nos permite entrar en una carpeta o archivo.
+ 22- ls : nos muestra los archivos contenidos en la carpeta o ruta en la que estemos posicionados.
+ --NOTA: al usar este comando nos muestra los resultados en varios colores para diferenciar los distintos elementos
+         AZUL-carpetas.
+	 VERDE- archivos ejecutables.
+	 CELESTE- carpetas especiales de windows.
+	 BLANCO- archivos pdf,jpg,doc,etc.
+ 23- cd .. : nos permite retroceder de una carpeta a otra.
+ 24- mkdir "nombre de la carpeta" : nos permite crear una carpeta. esta se crea dentro del prompt actual.
+ 25- touch "nombre del archivo" : nos permite crear un archivo  EJ: touch "nuevo documento.txt"
+     NOTA: poner el nombre del archivo entre comillas para evitar errores.
+ 26- cat "nombre del archivo" : nos permite ver el contenido de un archivo.
+ 27- rm "nombre del archivo" : nos permite borrar un archivo o carpeta.
+ 28- clear : nos permite limpiar la consola.
+ 29- ESC + :wq + ENTER : nos permite salir del modo de edicion y guardar los cambios.
+ 
